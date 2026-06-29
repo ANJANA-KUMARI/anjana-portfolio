@@ -1,0 +1,9 @@
+node_modules/
+client/dist/
+.env
+server/.env
+client/.env
+npm-debug.log*
+.DS_Store
+coverage/
+server/data/messages.json.tmp

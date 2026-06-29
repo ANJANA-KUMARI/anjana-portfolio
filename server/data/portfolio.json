@@ -1,0 +1,120 @@
+{
+  "profile": {
+    "name": "Anjana Kumari",
+    "title": "Backend Software Engineer",
+    "availability": "Open to remote opportunities",
+    "location": "Sri Lanka",
+    "email": "mmakumari@gmail.com",
+    "yearsExperience": 4,
+    "summary": "I build reliable backend services, enterprise APIs, microservices, and workflow-driven platforms using Node.js, TypeScript, MongoDB, Redis, and modern integration patterns.",
+    "about": [
+      "I am a backend-focused software engineer with experience developing enterprise healthcare systems, REST APIs, distributed workflows, database-intensive services, and integrations with internal and external platforms.",
+      "My work combines practical software architecture with careful attention to data integrity, performance, transaction safety, maintainability, and real-world business requirements. I enjoy turning complex operational processes into clear, dependable software.",
+      "I am currently interested in remote backend software engineering roles where I can contribute to meaningful products, collaborate with international teams, and continue improving my system design and cloud engineering skills."
+    ],
+    "stats": [
+      { "value": "4+", "label": "Years of experience" },
+      { "value": "20+", "label": "APIs and integrations" },
+      { "value": "EHR", "label": "Healthcare domain" },
+      { "value": "IEEE", "label": "Published research" }
+    ],
+    "socialLinks": [
+      { "label": "GitHub", "icon": "github", "url": "https://github.com/anjana-kumari" },
+      { "label": "LinkedIn", "icon": "linkedin", "url": "https://www.linkedin.com/in/anjana-k" },
+      { "label": "Email", "icon": "email", "url": "mailto:mmakumaru@gmail.com" }
+    ]
+  },
+  "skills": [
+    {
+      "category": "Backend Engineering",
+      "shortCode": "BE",
+      "items": ["Node.js", "TypeScript", "JavaScript", "Express.js", "REST APIs", "Microservices"]
+    },
+    {
+      "category": "Databases and Caching",
+      "shortCode": "DB",
+      "items": ["MongoDB", "Mongoose", "MySQL", "Redis", "Aggregation Pipelines", "Transactions"]
+    },
+    {
+      "category": "Architecture and Delivery",
+      "shortCode": "SD",
+      "items": ["System Design", "Docker", "CI/CD", "Git", "API Integrations", "Production Support"]
+    },
+    {
+      "category": "Healthcare Technology",
+      "shortCode": "HC",
+      "items": ["EHR Workflows", "Clinical Data", "Medication Systems", "HL7/FHIR Concepts", "Patient Safety"]
+    },
+    {
+      "category": "AI Integration",
+      "shortCode": "AI",
+      "items": ["OpenAI APIs", "Prompt Design", "Clinical Summarization", "Structured Outputs", "Safety Guardrails"]
+    },
+    {
+      "category": "Collaboration",
+      "shortCode": "TM",
+      "items": ["Technical Leadership", "Code Reviews", "Agile Delivery", "Mentoring", "Documentation"]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Senior Software Engineer / Tech Lead",
+      "company": "Healthcare Technology — Enterprise EHR Platform",
+      "period": "Current",
+      "achievements": [
+        "Designed and maintained Node.js and TypeScript services supporting clinical, medication, admission, and encounter workflows.",
+        "Implemented complex MongoDB queries, transaction-safe updates, synchronization processes, and performance improvements.",
+        "Integrated AI-assisted clinical documentation and medication-safety features with structured validation and safety controls.",
+        "Led technical discussions, code reviews, troubleshooting, and delivery coordination across backend and frontend teams."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Enterprise Software Development",
+      "period": "Previous",
+      "achievements": [
+        "Built REST APIs, background services, and database integrations for production systems.",
+        "Worked with Node.js, JavaScript, MongoDB, relational databases, Git, and CI/CD workflows.",
+        "Investigated production defects and translated business requirements into maintainable software features."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Clinical Workflow Engine",
+      "type": "Backend platform",
+      "description": "A configurable workflow service for multi-step clinical procedures, including step completion, editing, status transitions, transaction management, and integration with patient encounters.",
+      "technologies": ["Node.js", "TypeScript", "MongoDB", "Mongoose", "REST APIs"],
+      "url": ""
+    },
+    {
+      "title": "Medication Safety Screening",
+      "type": "AI-assisted healthcare",
+      "description": "A backend service that evaluates prescribed and current medications against allergies and interaction risks, then stores structured conflict results for clinical review.",
+      "technologies": ["Node.js", "OpenAI", "MongoDB", "Validation", "Healthcare Data"],
+      "url": ""
+    },
+    {
+      "title": "Patient and Admission Synchronization",
+      "type": "Enterprise integration",
+      "description": "A resilient synchronization workflow that creates or updates patient, admission, and encounter data while preserving consistency across multiple business identifiers and systems.",
+      "technologies": ["Node.js", "MongoDB Transactions", "APIs", "Data Mapping"],
+      "url": ""
+    },
+    {
+      "title": "Clinical Documentation Services",
+      "type": "Healthcare backend",
+      "description": "Services for structured SOAP notes, discharge summaries, SBAR handovers, attachments, letters, and clinical templates with role-based validation and audit-friendly data handling.",
+      "technologies": ["TypeScript", "MongoDB", "Redis", "Prompt Engineering", "REST"],
+      "url": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Consumer and Farmer Centric Subscription Based Organic Vegetable/Fruit Delivery System",
+      "event": "IEEE Conference Publication and Presentation",
+      "year": "2021",
+      "url": ""
+    }
+  ]
+}
