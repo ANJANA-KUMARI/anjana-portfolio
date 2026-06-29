@@ -499,9 +499,17 @@ svg {
   white-space: pre-wrap;
 }
 
-.code-purple { color: #c4b5fd; }
-.code-blue { color: #7dd3fc; }
-.code-green { color: #86efac; }
+.code-purple {
+  color: #c4b5fd;
+}
+
+.code-blue {
+  color: #7dd3fc;
+}
+
+.code-green {
+  color: #86efac;
+}
 
 .floating-card {
   position: absolute;
@@ -549,7 +557,7 @@ svg {
   letter-spacing: -0.04em;
 }
 
-.section-header > p:last-child:not(.section-eyebrow) {
+.section-header>p:last-child:not(.section-eyebrow) {
   margin: 18px 0 0;
   color: var(--text-soft);
   font-size: 1.04rem;
@@ -713,7 +721,7 @@ svg {
   font-weight: 600;
 }
 
-.timeline-heading > span {
+.timeline-heading>span {
   flex: 0 0 auto;
   color: var(--text-soft);
   font-size: 0.88rem;
@@ -834,7 +842,7 @@ svg {
   font-family: 'Space Grotesk', sans-serif;
 }
 
-.publication-card > a {
+.publication-card>a {
   display: grid;
   place-items: center;
   width: 43px;
@@ -867,11 +875,11 @@ svg {
   line-height: 1.2;
 }
 
-.contact-panel > p {
+.contact-panel>p {
   color: var(--text-soft);
 }
 
-.contact-panel > a {
+.contact-panel>a {
   display: inline-block;
   margin-top: 14px;
   color: var(--primary);
@@ -963,9 +971,17 @@ svg {
   font-size: 0.9rem;
 }
 
-.form-status.success { color: var(--success); }
-.form-status.error { color: var(--danger); }
-.form-status.loading { color: var(--text-soft); }
+.form-status.success {
+  color: var(--success);
+}
+
+.form-status.error {
+  color: var(--danger);
+}
+
+.form-status.loading {
+  color: var(--text-soft);
+}
 
 .site-footer {
   padding: 26px 0;
@@ -1022,10 +1038,13 @@ svg {
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 960px) {
+
   .hero-grid,
   .about-grid,
   .contact-grid {
@@ -1138,7 +1157,7 @@ svg {
     width: min(100% - 26px, 1120px);
   }
 
-  .brand > span:last-child {
+  .brand>span:last-child {
     display: none;
   }
 
@@ -1192,8 +1211,15 @@ svg {
     padding: 22px;
   }
 
-  .publication-card > a {
-    display: none;
+  .publication-card>a {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    border-radius: 13px;
   }
 
   .footer-inner {
