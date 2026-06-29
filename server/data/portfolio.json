@@ -22,7 +22,8 @@
       { "label": "GitHub", "icon": "github", "url": "https://github.com/anjana-kumari" },
       { "label": "LinkedIn", "icon": "linkedin", "url": "https://www.linkedin.com/in/anjana-k" },
       { "label": "Email", "icon": "email", "url": "mailto:mmakumaru@gmail.com" },
-      { "label": "Website", "icon": "website", "url": "https://anjana-portfolio-49bh.onrender.com" }
+      { "label": "Stack Overflow", "icon": "stackOverflow", "url": "https://stackoverflow.com/users/15580199/anjana-kumari" },
+      { "label": "Dev", "icon": "devTo", "url": "https://dev.to/princessanjana1996" }
     ]
   },
   "skills": [

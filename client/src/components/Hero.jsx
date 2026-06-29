@@ -1,9 +1,11 @@
-import { ArrowIcon, GithubIcon, LinkedinIcon, MailIcon } from './Icons.jsx';
+import { ArrowIcon, DevToIcon, GithubIcon, LinkedinIcon, MailIcon, StackOverflowIcon } from './Icons.jsx';
 
 const iconMap = {
   github: <GithubIcon />,
   linkedin: <LinkedinIcon />,
   email: <MailIcon />,
+  stackOverflow: <StackOverflowIcon />,
+  devTo: <DevToIcon />
 };
 
 export default function Hero({ profile }) {
