@@ -13,10 +13,6 @@ export default function Hero({ profile }) {
     <section className="hero section" id="top">
       <div className="container hero-grid">
         <div className="hero-copy reveal">
-          <div className="eyebrow">
-            <span className="status-dot" />
-            {profile.availability}
-          </div>
           <p className="hero-intro">Hello, I’m</p>
           <h1>{profile.name}</h1>
           <h2>{profile.title}</h2>
