@@ -21,7 +21,8 @@
     "socialLinks": [
       { "label": "GitHub", "icon": "github", "url": "https://github.com/anjana-kumari" },
       { "label": "LinkedIn", "icon": "linkedin", "url": "https://www.linkedin.com/in/anjana-k" },
-      { "label": "Email", "icon": "email", "url": "mailto:mmakumaru@gmail.com" }
+      { "label": "Email", "icon": "email", "url": "mailto:mmakumaru@gmail.com" },
+      { "label": "Website", "icon": "website", "url": "https://anjana-portfolio-49bh.onrender.com" }
     ]
   },
   "skills": [
